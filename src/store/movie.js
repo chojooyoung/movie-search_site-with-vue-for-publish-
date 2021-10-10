@@ -1,4 +1,4 @@
-const { API_KEY } = process.env
+
 
 export default {
     namespaced: true,
