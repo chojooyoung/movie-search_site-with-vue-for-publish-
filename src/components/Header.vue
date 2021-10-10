@@ -71,7 +71,7 @@ header {
 
     .movie-search-input {
       height:50px;
-      width: 500px;
+      width: 100%;
       border-right: none;
       border: none;
       border-radius: 0.1rem;
@@ -97,6 +97,23 @@ header {
         background-color: lightcoral;
       }
     }
+  }
+}
+
+@media all and (max-width: 1020px) {
+    .movie-search-input {
+  width:100%;
+  min-width: 100px;  
+  
+  }
+
+}
+@media all and (min-width: 1021px) {
+    .movie-search-input {
+  min-width: 300px;
+  max-width:500px;
+  
+  
   }
 }
 </style> 

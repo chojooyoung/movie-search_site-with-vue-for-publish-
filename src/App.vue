@@ -41,7 +41,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .movieresult_container {
-  height: 150vh;
+  width:100%;
+  height:1950px;
   background-color: black;
 }
 </style>

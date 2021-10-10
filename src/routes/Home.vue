@@ -40,12 +40,15 @@
 
 <style lang="scss" scoped>
 h1{
+  width:100%;
   padding:20px;
   margin:0px;
   color:white;
   border-bottom: solid white ;
 }
 .Home-title1{
+    width:100%;
+
   margin-top:50px;
   text-align: center;
   padding: 20px;;
@@ -53,18 +56,51 @@ h1{
   color:white;
 }
 .Home-reserve{
+  width:100%;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   padding:20px;
   .Home-reserve-mega{
+    
     margin-right:100px;
   }
     .Home-reserve-lotte{
     margin-right:100px;
   }
     .Home-reserve-cgv{
+  }
+}
+
+@media all and (max-width: 1020px) {
+  .Home-reserve {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      .Home-reserve-mega{
+    
+    margin-right:0px;
+    margin-bottom:30px;
+  }
+    .Home-reserve-lotte{
+    margin-right:0px;
+    margin-bottom:30px;
+  }
+    .Home-reserve-cgv{
+  }
+  }
+}
+@media all and (min-width: 1021px) {
+  .Home-reserve {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding:20px;
+  
   }
 }
 </style>

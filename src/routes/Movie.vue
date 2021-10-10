@@ -259,4 +259,58 @@ h1 {
   }
 
 }
+
+@media all and (max-width: 1020px) {
+  .movie-result-list {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3px;
+  margin-top: 20px;
+  padding-inline: 100px;
+
+  li {
+    margin: 10px;
+    text-align: right;
+    list-style:none;
+    
+    .movie-result-list-item{
+      text-align: center;
+    }
+
+    .movie-result-poster {
+      width: 200px;
+      height: 250px;
+    }
+    .movie-result-title{
+        margin-left:60px;
+        width:150px;
+        font-size: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .movie-result-moreinfobutton {
+      font-size: 30px;
+      border: none;
+
+      background-color: black;
+      color: white;
+
+      &:hover {
+        border-bottom: solid blue;
+        color: blue;
+      }
+    }
+  }
+
+}
+
+}
+@media all and (min-width: 1021px) {
+
+}
 </style>
