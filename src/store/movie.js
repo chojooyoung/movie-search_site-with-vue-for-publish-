@@ -1,5 +1,5 @@
-require('dotenv').config()
-const { API_KEY } = process.env
+// require('dotenv').config()
+// const { API_KEY } = process.env
 
 export default {
     namespaced: true,
@@ -7,7 +7,7 @@ export default {
         return {
             movieTitle: '',
             moreInfomation: {},
-            apiKey: API_KEY,
+            apiKey:'7035c60c',
             totalresult: 0,
             movieInfo: [],
             page: 1,
@@ -24,7 +24,7 @@ export default {
         StateDataReset() {
             this.state.movie.movieTitle = '',
                 this.state.movie.moreInfomation = {},
-                this.state.movie.apiKey = API_KEY,
+                this.state.movie.apiKey = '7035c60c',
                 this.state.movie.totalresult = 0,
                 this.state.movie.movieInfo = [],
                 this.state.movie.page = 1,
