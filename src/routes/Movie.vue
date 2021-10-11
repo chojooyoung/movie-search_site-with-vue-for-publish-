@@ -236,8 +236,7 @@ h1 {
       height: 250px;
     }
     .movie-result-title{
-        margin-left:60px;
-        width:150px;
+        width:200px;
         font-size: 20px;
         white-space: nowrap;
         overflow: hidden;
@@ -266,7 +265,7 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 210px);
   gap: 3px;
   margin-top: 20px;
   padding-inline: 100px;
@@ -282,12 +281,13 @@ h1 {
 
     .movie-result-poster {
       width: 200px;
+      min-width:200px;
       height: 250px;
     }
     .movie-result-title{
-        margin-left:45px;
-        width:150px;
+        width:200px;
         font-size: 20px;
+        min-width:200px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
