@@ -285,7 +285,7 @@ h1 {
       height: 250px;
     }
     .movie-result-title{
-        margin-left:60px;
+        margin-left:45px;
         width:150px;
         font-size: 20px;
         white-space: nowrap;
