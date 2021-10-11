@@ -236,8 +236,10 @@ h1 {
       height: 250px;
     }
     .movie-result-title{
+        margin-left: 30px;
         width:200px;
         font-size: 20px;
+        min-width:200px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
