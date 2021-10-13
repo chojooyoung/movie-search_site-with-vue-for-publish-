@@ -2,6 +2,7 @@ const path = require('path')
 const {VueLoaderPlugin} = require('vue-loader')
 const HtmlPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports={
     resolve:{
@@ -49,7 +50,8 @@ module.exports={
             patterns:[
                 { from:'static' }
             ]
-        })
+        }),
+        new Dotenv()
 
     ],
     devServer:{

@@ -7,7 +7,7 @@ export default {
         return {
             movieTitle: '',
             moreInfomation: {},
-            apiKey:'7035c60c',
+            apiKey:process.env.API_KEY,
             totalresult: 0,
             movieInfo: [],
             page: 1,
@@ -24,7 +24,7 @@ export default {
         StateDataReset() {
             this.state.movie.movieTitle = '',
                 this.state.movie.moreInfomation = {},
-                this.state.movie.apiKey = '7035c60c',
+                this.state.movie.apiKey = process.env.API_KEY,
                 this.state.movie.totalresult = 0,
                 this.state.movie.movieInfo = [],
                 this.state.movie.page = 1,
